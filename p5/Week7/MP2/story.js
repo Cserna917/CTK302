@@ -14,10 +14,10 @@ function preload(){
 function setup() {
   // put setup code here
   createCanvas(1250, 800);
-  sit = loadImage("assets/intro.png");
-  body = loadImage("assets/body.png");
-  boat = loadImage("assets/boat.png");
-  guys = loadImage("assets/guys.png");
+  sit = loadImage("asset/intro.png");
+  body = loadImage("asset/body.png");
+  boat = loadImage("asset/boat.png");
+  guys = loadImage("asset/guys.png");
 }
 
 function draw() {
@@ -52,7 +52,7 @@ function draw() {
       state = 2;
       timer = 0;
     }
-    
+
     break;
 
     case 2:
