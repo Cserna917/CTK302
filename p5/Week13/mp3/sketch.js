@@ -5,7 +5,7 @@ var win;
 var cars = [];
 var frogPos;
 var state = 0;
-var maxCars = 20;
+var maxCars = 10;
 var maxTimer = 12*60
 var timer = maxTimer;
 
@@ -166,7 +166,7 @@ function draw() {
 
 function Car(){
   this.pos = createVector(random(width), random(height));
-  this.vel = createVector(random(-5,5), random(-5,5));
+  this.vel = createVector(random(-5,5), random(-5));
   this.r = random(255);
   this.b = random(255);
   this.g = random(255);
