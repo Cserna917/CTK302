@@ -3,6 +3,7 @@ Make sure you turn on orientation lock on your iPhone or Android device. */
 
 var alpha, beta, gamma; // orientation data
 var gunImage;
+var barImage;
 var xPosition = 0;
 var yPosition = 0;
 var x = 0; // acceleration data
@@ -17,8 +18,8 @@ function setup() {
   alpha = 0;
   beta = 0;
   gamma = 0;
-
   gunImage = loadImage("assets/gun.png");
+  barImage = loadImage("assets/bar.jpg");
   imageMode(CENTER);
   rectMode(CENTER);
 
@@ -27,7 +28,7 @@ function setup() {
 function draw() {
 
   background('#c6f5ff'); // light blue
-
+  Image("assets/bar.jpg");
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
   // map(yourVar, range1_x, range1_y, range2_x, range2_y) ;
