@@ -10,13 +10,9 @@ var x = 0; // acceleration data
 var y = 0;
 var z = 0;
 
-
-
-
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
-
   // initialize accelerometer variables
   alpha = 0;
   beta = 0;
@@ -74,8 +70,6 @@ function draw() {
   text("atk", width / 2, height / 2);
 
 }
-
-
 
 // HERE'S THE STUFF YOU NEED FOR READING IN DATA!!!
 
