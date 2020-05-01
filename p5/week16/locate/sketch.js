@@ -20,7 +20,7 @@ function setup() {
   createCanvas(displayWidth, displayHeight);
   num = 0;
   intervalCurrentPosition(positionPing, 5000);
-  places.push(new Place(40.6642367, -89.7271332, " Christian's Secret Room" , .2, batcaveImg)); // my new place
+  places.push(new Place(40.6642367, -89.7271332, "Christian's Secret Room" , .02, batcaveImg)); // my new place
   places.push(new Place(40.47859881213726, -88.96815846900026, "Rose's Room", .02, batcaveImg)); // new Place object, for CVA room 17
 
   places.push(new Place(40.50622797365503, -88.99051350503431, "CVA 17", .02, batcaveImg)); // new Place object, for CVA room 17
