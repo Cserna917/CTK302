@@ -24,7 +24,7 @@ function setup() {
   places.push(new Place(40.47859881213726, -88.96815846900026, "Rose's Room", .02, batcaveImg)); // new Place object, for CVA room 17
 
   places.push(new Place(40.50622797365503, -88.99051350503431, "CVA 17", .02, batcaveImg)); // new Place object, for CVA room 17
-  places.push(new Place(40.50715473783438, -88.99173550368103, "COB", .02, batcaveImg); // new Place object, for COB.... JUST SWITCHED TO NEW COORDINATES
+  places.push(new Place(40.50715473783438, -88.99173550368103, "COB", .02, batcaveImg)); // new Place object, for COB.... JUST SWITCHED TO NEW COORDINATES
   places.push(new Place(40.510824736433904, -88.99134151266699, "ISU College Bridge", .02, batcaveImg)); // new Place object, for ISU bridge over College Ave
 
   places.push(new Place(40.50863221414712, -88.99077591254148, "Old Union", .02, batcaveImg)); // new Place object, for ISU bridge over College Ave
