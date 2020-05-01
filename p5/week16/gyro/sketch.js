@@ -9,11 +9,16 @@ var yPosition = 0;
 var x = 0; // acceleration data
 var y = 0;
 var z = 0;
+var song1;
+
+function preload() {
+  song1 = loadSound('assets/clouds.mp3');
+}
 
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
-
+  song1.play();
   // initialize accelerometer variables
   alpha = 0;
   beta = 0;
@@ -72,6 +77,18 @@ function draw() {
 
 }
 
+function mouseReleased(){
+  if (song1.isplaying()){
+    song1.pause();
+  }else{
+    song1.play();
+  }
+
+}
+
+function touchStarted() {
+  getAudioContext().resume();
+}
 // HERE'S THE STUFF YOU NEED FOR READING IN DATA!!!
 
 // Read in accelerometer data
