@@ -88,7 +88,7 @@ function Place(lat, long, desc, radius, batcaveImg) {
 
 
   this.display = function() {
-    image(reggieImg, 10, 10);
+    image(batcaveImg, 10, 10);
     textSize(20);
     text("You are at " + this.desc, 10, 240);
   }
