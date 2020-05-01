@@ -9,16 +9,14 @@ var yPosition = 0;
 var x = 0; // acceleration data
 var y = 0;
 var z = 0;
-var song1;
 
-function preload() {
-  song1 = loadSound('assets/clouds.mp3');
-}
+
+
 
 function setup() {
 
   createCanvas(windowWidth, windowHeight);
-  song1.play();
+
   // initialize accelerometer variables
   alpha = 0;
   beta = 0;
@@ -32,7 +30,7 @@ function setup() {
 
 function draw() {
 
-  background('#c6f5ff'); // light blue
+  background('black'); // light blue
   image(barImage, 500,500);
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
@@ -78,9 +76,7 @@ function draw() {
 }
 
 
-function touchStarted() {
-  getAudioContext().resume();
-}
+
 // HERE'S THE STUFF YOU NEED FOR READING IN DATA!!!
 
 // Read in accelerometer data
