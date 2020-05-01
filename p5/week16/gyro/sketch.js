@@ -28,7 +28,7 @@ function setup() {
 function draw() {
 
   background('#c6f5ff'); // light blue
-  Image("assets/bar.jpg");
+  image(barImage, 500,500);
   // the map command !!!!
   // takes your variable and maps it from range 1 to range 2
   // map(yourVar, range1_x, range1_y, range2_x, range2_y) ;
